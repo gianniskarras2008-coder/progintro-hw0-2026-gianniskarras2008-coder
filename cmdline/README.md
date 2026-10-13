@@ -13,3 +13,4 @@ byte11:we run sort births.txt | uniq -c | short -n which sorts the txt file then
 byte12:we run ls -la and we see a .cache directory we then run cd .cache and we see which_command_is_the_best directory we run cd which_command_is_the_best and we see our tuxsay programm, so the basename of the file is which_command_is_the_best
 byte13:cd repo then git log and we see the messages 
 byte14:cd repo then git log -p which shows every commit in detail displaying every edit so the password was not safe and byte14 was incorrect
+byte15:ls -la amd we see a list in which there is a programm called .exit_code. The program exit code can be seen with echo $? and here is 0.
