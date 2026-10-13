@@ -11,3 +11,4 @@ byte9: we use file path cat /home/byte9/- because cat - does not show what is in
 byte10:we run sort.txt | head -n 67 which sorts the names.txt file and shows the first 67 names so the last one is the one we want (we need -n 67 beacause default head only grabs the first 10 names)
 byte11:we run sort births.txt | uniq -c | short -n which sorts the txt file then counts(-c) the doubles and then sorts again but baesed on the number(-n) 
 byte12:we run ls -la and we see a .cache directory we then run cd .cache and we see which_command_is_the_best directory we run cd which_command_is_the_best and we see our tuxsay programm, so the basename of the file is which_command_is_the_best
+byte13:cd repo then git log and we see the messages 
