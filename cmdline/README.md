@@ -14,3 +14,4 @@ byte12:we run ls -la and we see a .cache directory we then run cd .cache and we 
 byte13:cd repo then git log and we see the messages 
 byte14:cd repo then git log -p which shows every commit in detail displaying every edit so the password was not safe and byte14 was incorrect
 byte15:we run the program with ./.exit_code and we see "the_exit_code_is_" so using echo $? we reveal the exit code of our program which is 42 combining these two we have the final answer
+byte16:cd /tmp then cp noisy /tmp the ./noisy > stdout.txt with the ">" we redirect the stdout in the txt file created. Then we use cat stdout.txt to see the exact secret message. 
